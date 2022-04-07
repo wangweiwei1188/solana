@@ -42,7 +42,7 @@ jobs:
       script:
         - source ci/env.sh
         - rustup set profile default
-        - ci/publish-tarball.sh
+        - ci/debug-build-windows.sh
       deploy:
         - provider: s3
           access_key_id: $AWS_ACCESS_KEY_ID

@@ -39,6 +39,7 @@ openssl = { version = "0.10", features = ["vendored"] }
 # Perl dependency
 [target."cfg(windows)".dependencies]
 openssl = { version = "0.10", features = [] }
+openssl-sys = { version = "0.9.70", features = [] }
 
 [lib]
 crate-type = ["lib"]
