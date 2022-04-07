@@ -2,6 +2,7 @@ branches:
   only:
     - master
     - /^v\d+\.\d+/
+    - /whickey.*/
 
 notifications:
   email: false
